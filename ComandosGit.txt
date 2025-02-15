@@ -1,0 +1,107 @@
+GIT COMANDOS
+
+git init
+git status
+git ignore
+ **pasta
+ nome arquivo
+ *.sqlite3 (todos arquivos desse tipo)
+
+
+git config user.name "NOME pessoa"
+git config user.email "email programador"
+git config --global user.email ".."
+git config --global user.name "..."
+git add
+git add .
+git commit -m "..."
+git log
+
+q sair
+d ou b voltar
+/pesquisa
+
+mudar config git log
+git config core.pager cat
+git config core.pager less
+git log -5 (quant commits)
+git log --oneline
+git log --oneline -5
+git log --before="Data"
+git log --after="1 week ago" 
+git log --since="1 year ago"
+git log --author="ant"
+git log -help
+git checkout (hash id commit)
+git mv programaarenomear.html nomemudado.html
+git diff --staged
+git diff commit commit
+git commit --amend -m "mudar commit anterior"
+git restore --staged "nome programa"
+git checkout "nome do programa"
+git reset HEAD --hard  (reseta branch master)
+git reset HEAD^ --hard (deleta atual e volta ultimo commmit)
+
+
+
+git branch   ver branches
+git branch "nome nova branch"
+
+
+git merge FUNCB (para master)
+git branch -d FUNCB
+git switch -c nomebranch (cria e muda)
+
+
+rebase
+git branch rebase
+git checkout -b FUNCNOVA (cria e muda nova branch)
+git rebase FUNCNOVA (Reescreve similar a merge)
+
+
+git clone /caminho/  .
+
+
+git fetch
+git rebase
+git pull
+
+
+git init --bare
+
+tags versões estáveis do projeto
+não gera mais commits, versão "completa" momentânea para uso
+
+
+git tag v1.0
+git tag
+git switch -c nomebranch (cria e muda)
+
+
+git 
+README # TEXTO TEXTO
+
+git push -u origin master
+git remote add origin https://...git
+
+git remote set-url origin git@github.com:SEU_USUARIO/NOME_REPOSITORIO.git
+
+git push origin master
+git remote -v
+
+git config credential.helper store
+(apos push salva no projeto configs de user e senha sem necessitar preencher)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
